@@ -1,0 +1,16 @@
+/**
+ * @FileName:index.css
+ * @Author:fengx
+ * @Created date:2017/9/12  15:02
+ * @Last Modified by:fengx
+ */
+
+
+ body{
+     width:100px;
+     height:100px;
+     background:url("../../image/cat.jpeg");
+     /*background:green;*/
+     color:yellow;
+     font-size: 20px;
+ }
