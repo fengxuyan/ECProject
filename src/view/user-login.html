@@ -1,10 +1,63 @@
+<!--
+ * @FileName:index.html
+ * @Author:fengx
+ * @Created date:2017/9/12  14:16
+ * @Last Modified by:fengx
+ */
+ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <%= require('html-loader!./layout/common-head.html') %>
+    <title><%=htmlWebpackPlugin.options.title%></title>
 </head>
 <body>
+<%= require('html-loader!./layout/common-nav-simple.html') %>
+
+<div class="page-wrap">
+    <div class="w">
+
+        <div class="user-con">
+            <div class="user-title">用户登录</div>
+            <div class="user-box">
+
+                <div class="error-item">
+
+                        <i class="fa fa-minus-circle error-icon"></i>
+                <p class="error-msg">ERROR</p>
+
+                </div>
+
+                <div class="user-item">
+                    <label class="user-label" for="username">
+                        <i class="fa fa-user"></i>
+                    </label>
+                    <input class="user-content" id="username" placeholder="请输入用户名" autocomplete="off">
+                </div>
+
+                <div class="user-item">
+                    <label class="user-label" for="password">
+                        <i class="fa fa-lock"></i>
+                    </label>
+                    <input class="user-content" id="password" placeholder="请输入密码" autocomplete="off">
+                </div>
+
+                <a class="btn btn-submit">登录</a>
+                <div class="link-item">
+                    <a class="link" href="./user-pass-reset.html" target="_blank">忘记密码</a>
+
+                    <a class="link" href="./user-register.html" target="_blank">立即注册</a>
+
+
+
+                </div>
+
+
+            </div>
+</div>
+
+
+<%= require('html-loader!./layout/footer.html') %>
 <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
 </body>
 </html>

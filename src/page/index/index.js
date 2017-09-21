@@ -5,7 +5,7 @@
 
 'use strict';
 require('./index.css');
-require('../login/module.js');
+// require('./module.js');
 
 require('page/common/nav-simple/index.css');
 require('page/common/nav/index.js');

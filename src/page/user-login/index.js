@@ -4,4 +4,5 @@
 
 
 'use strict';
-require('./module.js');
+require('./index.css');
+require('page/common/nav-simple/index.js');
