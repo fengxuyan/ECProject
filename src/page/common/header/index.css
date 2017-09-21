@@ -1,31 +1,31 @@
-/*头部导航栏*/
-.nav{
-    /*width:1080px;*/
-    background: #eee;
-    /*border:2px solid green;*/
-    height:30px;
-    line-height:30px;
-    margin: 0 auto;
+/*通用头部导航*/
+.header .logo{
+    position:absolute;
+    left:50px;
+    top:30px;
+    display: block;
+    font-size: 36px;
+    color:#c60023;
+    font-weight: bold;
+}
 
+
+.header .search-con{
+    padding:40px 0 30px 250px;
 }
-/*nav左侧用户登录退出*/
-.user-info{
-    float:left;
-    /*border:2px solid red;*/
+.header .search-con .search-input {
+    width:550px;
+    height:40px;
+    line-height: 40px;
+    font-size:15px;
+    padding-left: 10px;
+    border:2px solid #c60023;
+    outline: none;
 }
-.user-info .link{
-    margin:0 5px;
-}
-.user-info .user.login{
-    display: none;
-}
-/*nav右侧购物导航*/
-.nav-list{
-    float:right;
-}
-.nav-list li{
-    float:left;
-    display: inline-block;
-    margin:0 5px;
+.header .search-con .search-btn {
+    height:44px;
+    line-height: 44px;
+    position: absolute;
+    width:80px;
 
 }

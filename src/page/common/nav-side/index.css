@@ -1,31 +1,28 @@
-/*头部导航栏*/
-.nav{
-    /*width:1080px;*/
-    background: #eee;
-    /*border:2px solid green;*/
-    height:30px;
-    line-height:30px;
-    margin: 0 auto;
+/*导航主体*/
+.nav-side{
+    float:left;
+    width:130px;
+    min-height: 100px;
+}
+.nav-side .nav-item{
+    line-height: 25px;
+    font-size: 13px;
+
 
 }
-/*nav左侧用户登录退出*/
-.user-info{
-    float:left;
-    /*border:2px solid red;*/
+.nav-side .nav-item .link{
+    color:#888;
 }
-.user-info .link{
-    margin:0 5px;
-}
-.user-info .user.login{
-    display: none;
-}
-/*nav右侧购物导航*/
-.nav-list{
-    float:right;
-}
-.nav-list li{
-    float:left;
-    display: inline-block;
-    margin:0 5px;
+.nav-side .nav-item.active .link{
+
+    color:#c60023;
 
 }
+
+.content.with-nav{
+    float:left;
+    width:950px;
+    /*border:1px solid blue;*/
+}
+
+/*右侧内容区*/

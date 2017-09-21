@@ -1,0 +1,31 @@
+/*头部导航栏*/
+.nav{
+    /*width:1080px;*/
+    background: #eee;
+    /*border:2px solid green;*/
+    height:30px;
+    line-height:30px;
+    margin: 0 auto;
+
+}
+/*nav左侧用户登录退出*/
+.user-info{
+    float:left;
+    /*border:2px solid red;*/
+}
+.user-info .link{
+    margin:0 5px;
+}
+.user-info .user.login{
+    display: none;
+}
+/*nav右侧购物导航*/
+.nav-list{
+    float:right;
+}
+.nav-list li{
+    float:left;
+    display: inline-block;
+    margin:0 5px;
+
+}

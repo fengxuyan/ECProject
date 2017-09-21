@@ -1,0 +1,17 @@
+.nav-simple{
+    /*width:1080px;*/
+    height:60px;
+    line-height: 60px;
+    /*border-bottom:1px solid #999;*/
+
+}
+.nav-simple .logo{
+    font-size:25px;
+    font-weight:bold;
+    color:#c60023;
+
+}
+.simple{
+    /*border:1px solid green;*/
+    background:#fff;
+}
